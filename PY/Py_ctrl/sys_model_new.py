@@ -6,7 +6,6 @@
 # @Software: PyCharm
 
 
-import control
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -14,9 +13,9 @@ fc = 40
 fs = 1000
 num = 2000
 
-ts = np.linspace(0, num - 1, num)/fs
+ts = np.linspace(0, num - 1, num) / fs
 
-y1 = np.sin(2*np.pi*fc*ts)
+y1 = np.sin(2 * np.pi * fc * ts)
 
 plt.plot(ts, y1, '-x')
 plt.show()

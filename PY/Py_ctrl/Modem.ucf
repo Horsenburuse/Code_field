@@ -1,0 +1,608 @@
+#Created by Constraints Editor (xc7k325tffg900) 
+
+#NET "Lclk"                  	LOC = U27   |IOSTANDARD = "LVCMOS33";  #      
+#NET "baseclk"                  LOC = AB27  |IOSTANDARD = "LVCMOS33";  #      
+#NET "basepps"                  LOC = W29   |IOSTANDARD = "LVCMOS33";  #       
+NET "LVDS125MP" 				LOC =  AU26 |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;
+NET "LVDS125MN" 				LOC =  AU27 |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;
+NET "GC_CLKP" 					LOC =  H19  |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;
+NET "GC_CLKN" 					LOC =  G18  |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;
+NET "PPS_P" 					LOC =  AT36 |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;
+NET "PPS_N" 					LOC =  AU36 |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;
+
+
+#NET "A3PBUS1"                  	LOC = AW15  |IOSTANDARD = "LVCMOS18";  #BUS1  
+#NET "A3PBUS2"                   LOC = AV15  |IOSTANDARD = "LVCMOS18";  #BUS2  
+#NET "A3PBUS3"                  	LOC = AU14  |IOSTANDARD = "LVCMOS18";  #BUS3  
+#NET "A3PBUS4"                   LOC = AV14  |IOSTANDARD = "LVCMOS18";  #BUS4  
+#NET "A3PBUS5"                  	LOC = AU13  |IOSTANDARD = "LVCMOS18";  #BUS5                	
+
+#-----------------------------------------------------------------------#
+#------------------------AD1 EV10AQ190A CLK&DATA------------------------#
+#-----------------------------------------------------------------------# 
+#NET "ADC_CLK_ADR"               LOC = C35  |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;	#Bank35  
+#NET "ADC_CLK_ADRN"              LOC = C36  |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;	#Bank35  
+#                                                               
+#NET "ADC_CLK_BDR"               LOC = E34  |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;	#Bank35  
+#NET "ADC_CLK_BDRN"              LOC = E35  |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;	#Bank35  
+                                                               
+#NET "ADC_CLK_CDR"               LOC = J25  |IOSTANDARD = "LVDS" |DIFF_TERM = TRUE;		#Bank36  
+#NET "ADC_CLK_CDRN"              LOC = J26  |IOSTANDARD = "LVDS" |DIFF_TERM = TRUE;		#Bank36  
+                                                                                    	
+NET "ADC_CLK_DDR"               LOC = M24  |IOSTANDARD = "LVDS" |DIFF_TERM = TRUE;		#Bank36  
+NET "ADC_CLK_DDRN"              LOC = L24  |IOSTANDARD = "LVDS" |DIFF_TERM = TRUE;    	#Bank36  
+                                             
+
+NET "ADC_DATA_A_P[0]"           LOC = F39 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_N[0]"           LOC = E39 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_P[1]"           LOC = H38 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_N[1]"           LOC = G38 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_P[2]"           LOC = J36 | IOSTANDARD = "LVDS";	#   BANK35  
+NET "ADC_DATA_A_N[2]"           LOC = H36 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_P[3]"           LOC = E37 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_N[3]"           LOC = E38 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_P[4]"           LOC = F34 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_N[4]"           LOC = F35 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_P[5]"           LOC = G36 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_N[5]"           LOC = G37 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_P[6]"           LOC = H33 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_N[6]"           LOC = G33 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_P[7]"           LOC = J37 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_A_N[7]"           LOC = J38 | IOSTANDARD = "LVDS";	#   BANK35 
+                                                               
+                                                               
+                                                               
+NET "ADC_DATA_B_P[0]"           LOC = C38 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_N[0]"           LOC = C39 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_P[1]"           LOC = B32 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_N[1]"           LOC = B33 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_P[2]"           LOC = B39 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_N[2]"           LOC = A39 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_P[3]"           LOC = B34 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_N[3]"           LOC = A34 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_P[4]"           LOC = E32 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_N[4]"           LOC = D32 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_P[5]"           LOC = A35 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_N[5]"           LOC = A36 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_P[6]"           LOC = B36 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_N[6]"           LOC = A37 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_P[7]"           LOC = B37 | IOSTANDARD = "LVDS";	#   BANK35 
+NET "ADC_DATA_B_N[7]"           LOC = B38 | IOSTANDARD = "LVDS";	#   BANK35 
+                                                               
+                                                               
+                                                               
+NET "ADC_DATA_C_P[0]"           LOC = P25 | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_C_N[0]"           LOC = P26 | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_C_P[1]"           LOC = P21 | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_C_N[1]"           LOC = N21 | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_C_P[2]"           LOC = M21 | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_C_N[2]"           LOC = L21 | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_C_P[3]"           LOC = P22 | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_C_N[3]"           LOC = P23 | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_C_P[4]"           LOC = N25 | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_C_N[4]"           LOC = N26 | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_C_P[5]"           LOC = N23 | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_C_N[5]"           LOC = N24 | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_C_P[6]"           LOC = M27 | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_C_N[6]"           LOC = L27 | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_C_P[7]"           LOC = K22 | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_C_N[7]"           LOC = J22 | IOSTANDARD = "LVDS";	#   BANK36                           	
+                                                               
+                                                               
+                                                               
+NET "ADC_DATA_D_P[0]"           LOC = H25  | IOSTANDARD = "LVDS";  	#   BANK36 
+NET "ADC_DATA_D_N[0]"           LOC = H26  | IOSTANDARD = "LVDS";   #   BANK36 
+NET "ADC_DATA_D_P[1]"           LOC = G21  | IOSTANDARD = "LVDS";  	#   BANK36 
+NET "ADC_DATA_D_N[1]"           LOC = G22  | IOSTANDARD = "LVDS";   #   BANK36 
+NET "ADC_DATA_D_P[2]"           LOC = H24  | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_D_N[2]"           LOC = G24  | IOSTANDARD = "LVDS";   #	BANK36 
+NET "ADC_DATA_D_P[3]"           LOC = M22  | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_D_N[3]"           LOC = L22  | IOSTANDARD = "LVDS";   #   BANK36 
+NET "ADC_DATA_D_P[4]"           LOC = H23  | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_D_N[4]"           LOC = G23  | IOSTANDARD = "LVDS";   #   BANK36 
+NET "ADC_DATA_D_P[5]"           LOC = J21  | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_D_N[5]"           LOC = H21  | IOSTANDARD = "LVDS";   #   BANK36 
+NET "ADC_DATA_D_P[6]"           LOC = G28  | IOSTANDARD = "LVDS"; 	#   BANK36 
+NET "ADC_DATA_D_N[6]"           LOC = G29  | IOSTANDARD = "LVDS";   #   BANK36 
+NET "ADC_DATA_D_P[7]"           LOC = G26  | IOSTANDARD = "LVDS";	#   BANK36 
+NET "ADC_DATA_D_N[7]"           LOC = G27  | IOSTANDARD = "LVDS";   #   BANK36 
+
+NET "ADC_CTRL_SCLK"           	LOC = M42 | IOSTANDARD = "LVCMOS18";   #   
+NET "ADC_CTRL_MOSI"           	LOC = L42 | IOSTANDARD = "LVCMOS18";   #   
+#NET "ADC_CTRL_MISO"           	LOC = G42 | IOSTANDARD = "LVCMOS18";   #   
+NET "ADC_CTRL_CSN"           	LOC = P42 | IOSTANDARD = "LVCMOS18";   #   
+NET "ADC_CTRL_RSTN"           	LOC = R42 | IOSTANDARD = "LVCMOS18";   #   
+
+
+#-----------------------------------------------------------------------#
+#------------------------AD2 EV10AQ190A CLK&DATA------------------------#   
+#-----------------------------------------------------------------------#
+#NET "ADC2_CLK_ADR"               LOC = AD40 |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;	#Bank17  
+#NET "ADC2_CLK_ADRN"              LOC = AD41 |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;	#Bank17  
+#                                                               
+#NET "ADC2_CLK_BDR"               LOC = U39  |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;	#Bank18  
+#NET "ADC2_CLK_BDRN"              LOC = T39  |IOSTANDARD =  "LVDS" |DIFF_TERM = TRUE;	#Bank18  
+                                                               
+#NET "ADC2_CLK_CDR"               LOC = AF39 |IOSTANDARD = "LVDS" |DIFF_TERM = TRUE;	#Bank17  
+#NET "ADC2_CLK_CDRN"              LOC = AF40 |IOSTANDARD = "LVDS" |DIFF_TERM = TRUE;	#Bank17  
+                                                               
+NET "ADC2_CLK_DDR"               LOC = U36  |IOSTANDARD = "LVDS" |DIFF_TERM = TRUE;		#Bank18  
+NET "ADC2_CLK_DDRN"              LOC = T37  |IOSTANDARD = "LVDS" |DIFF_TERM = TRUE;		#Bank18  
+                                             
+
+NET "ADC2_DATA_A_P[0]"           LOC = AD42 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_N[0]"           LOC = AE42 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_P[1]"           LOC = AB38 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_N[1]"           LOC = AB39 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_P[2]"           LOC = AC40 | IOSTANDARD = "LVDS";	#   BANK17  
+NET "ADC2_DATA_A_N[2]"           LOC = AC41 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_P[3]"           LOC = Y42  | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_N[3]"           LOC = AA42 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_P[4]"           LOC = AE39 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_N[4]"           LOC = AE40 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_P[5]"           LOC = AA40 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_N[5]"           LOC = AA41 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_P[6]"           LOC = AC38 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_N[6]"           LOC = AC39 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_P[7]"           LOC = AD38 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_A_N[7]"           LOC = AE38 | IOSTANDARD = "LVDS";	#   BANK17 
+                                                               
+                                                               
+                                                               
+NET "ADC2_DATA_B_P[0]"           LOC = P32 | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_B_N[0]"           LOC = P33 | IOSTANDARD = "LVDS";   #   BANK18 
+NET "ADC2_DATA_B_P[1]"           LOC = T32 | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_B_N[1]"           LOC = R32 | IOSTANDARD = "LVDS";   #   BANK18 
+NET "ADC2_DATA_B_P[2]"           LOC = R38 | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_B_N[2]"           LOC = R39 | IOSTANDARD = "LVDS";   #   BANK18 
+NET "ADC2_DATA_B_P[3]"           LOC = P35 | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_B_N[3]"           LOC = P36 | IOSTANDARD = "LVDS";   #   BANK18 
+NET "ADC2_DATA_B_P[4]"           LOC = U37 | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_B_N[4]"           LOC = U38 | IOSTANDARD = "LVDS";   #   BANK18 
+NET "ADC2_DATA_B_P[5]"           LOC = P37 | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_B_N[5]"           LOC = P38 | IOSTANDARD = "LVDS";   #   BANK18 
+NET "ADC2_DATA_B_P[6]"           LOC = T36 | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_B_N[6]"           LOC = R37 | IOSTANDARD = "LVDS";   #   BANK18 
+NET "ADC2_DATA_B_P[7]"           LOC = U34 | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_B_N[7]"           LOC = T35 | IOSTANDARD = "LVDS";   #   BANK18 
+                                                               
+                                                               
+                                                               
+NET "ADC2_DATA_C_P[0]"           LOC = AF42 | IOSTANDARD = "LVDS"; 	#   BANK17 
+NET "ADC2_DATA_C_N[0]"           LOC = AG42 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_C_P[1]"           LOC = AG39 | IOSTANDARD = "LVDS"; 	#   BANK17 
+NET "ADC2_DATA_C_N[1]"           LOC = AH39 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_C_P[2]"           LOC = AF41 | IOSTANDARD = "LVDS"; 	#   BANK17 
+NET "ADC2_DATA_C_N[2]"           LOC = AG41 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_C_P[3]"           LOC = AG38 | IOSTANDARD = "LVDS"; 	#   BANK17 
+NET "ADC2_DATA_C_N[3]"           LOC = AH38 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_C_P[4]"           LOC = AH40 | IOSTANDARD = "LVDS"; 	#   BANK17 
+NET "ADC2_DATA_C_N[4]"           LOC = AH41 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_C_P[5]"           LOC = AJ38 | IOSTANDARD = "LVDS"; 	#   BANK17 
+NET "ADC2_DATA_C_N[5]"           LOC = AK38 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_C_P[6]"           LOC = AK40 | IOSTANDARD = "LVDS"; 	#   BANK17 
+NET "ADC2_DATA_C_N[6]"           LOC = AL40 | IOSTANDARD = "LVDS";	#   BANK17 
+NET "ADC2_DATA_C_P[7]"           LOC = AL41 | IOSTANDARD = "LVDS"; 	#   BANK17 
+NET "ADC2_DATA_C_N[7]"           LOC = AL42 | IOSTANDARD = "LVDS";	#   BANK17                           	
+                                                               
+                                                               
+                                                               
+NET "ADC2_DATA_D_P[0]"           LOC = W41  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_N[0]"           LOC = W42  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_P[1]"           LOC = W36  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_N[1]"           LOC = W37  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_P[2]"           LOC = V35  | IOSTANDARD = "LVDS"; 	#   BANK18 
+NET "ADC2_DATA_D_N[2]"           LOC = V36  | IOSTANDARD = "LVDS";	#	BANK18 
+NET "ADC2_DATA_D_P[3]"           LOC = V33  | IOSTANDARD = "LVDS"; 	#   BANK18 
+NET "ADC2_DATA_D_N[3]"           LOC = V34  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_P[4]"           LOC = U32  | IOSTANDARD = "LVDS"; 	#   BANK18 
+NET "ADC2_DATA_D_N[4]"           LOC = U33  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_P[5]"           LOC = W32  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_N[5]"           LOC = W33  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_P[6]"           LOC = T40  | IOSTANDARD = "LVDS"; 	#   BANK18 
+NET "ADC2_DATA_D_N[6]"           LOC = T41  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_P[7]"           LOC = V39  | IOSTANDARD = "LVDS";	#   BANK18 
+NET "ADC2_DATA_D_N[7]"           LOC = V40  | IOSTANDARD = "LVDS";	#   BANK18 
+
+NET "ADC2_CTRL_SCLK"           	LOC = J42 | IOSTANDARD = "LVCMOS18";   #   
+NET "ADC2_CTRL_MOSI"           	LOC = K42 | IOSTANDARD = "LVCMOS18";   #   
+#NET "ADC2_CTRL_MISO"           	LOC = D42 | IOSTANDARD = "LVCMOS18";   #   
+NET "ADC2_CTRL_CSN"           	LOC = B42 | IOSTANDARD = "LVCMOS18";   #   
+NET "ADC2_CTRL_RSTN"           	LOC = F42 | IOSTANDARD = "LVCMOS18";   #   
+
+
+
+NET "SYNCP"           			LOC = M41  |IOSTANDARD = "LVDS";     #   
+NET "SYNCN"           			LOC = L41  |IOSTANDARD = "LVDS";     #   
+
+#NET "LVDS_EN0"           		LOC = AC24  |IOSTANDARD = "LVCMOS18";     #   
+#NET "LVDS_EN1"           		LOC = Y26   |IOSTANDARD = "LVCMOS18";     #   
+#NET "LVDS_SEL0"           		LOC = AC22  |IOSTANDARD = "LVCMOS18";     #   
+#NET "LVDS_SEL1"           		LOC = AC21  |IOSTANDARD = "LVCMOS18";     #   
+
+#------------------------Channel Config------------------------# 
+NET "SDA_DIN"           		LOC = AR12  | IOSTANDARD = "LVCMOS18";   # F2DA2    
+NET "SDA_CLK"           		LOC = AR15  | IOSTANDARD = "LVCMOS18";   #    
+NET "SDA_CSn"           		LOC = AT15  | IOSTANDARD = "LVCMOS18";   #   
+NET "Filter_Sel[1]"           	LOC = AP12  | IOSTANDARD = "LVCMOS18";   # VC1  
+NET "Filter_Sel[0]"           	LOC = AT12  | IOSTANDARD = "LVCMOS18";   # VC2
+
+##----------------------- 频综 --------------#
+NET "FSYN_SCLK"  				LOC = C18  | IOSTANDARD = "LVCMOS18";   #	XINDAO_CTL_F1
+NET "FSYN_SDATA"  				LOC = B17  | IOSTANDARD = "LVCMOS18";   #	XINDAO_CTL_F3
+NET "FSYN_LE"  					LOC = B18  | IOSTANDARD = "LVCMOS18";   #	XINDAO_CTL_F5
+NET "FSYN_CE"  					LOC = A15  | IOSTANDARD = "LVCMOS18";   #	XINDAO_CTL_F2
+NET "Ref_Sel"           		LOC = A16  | IOSTANDARD = "LVCMOS18";   #   XINDAO_CTL_F4   
+NET "TXO_EN"           	        LOC = A17  | IOSTANDARD = "LVCMOS18";   #	XINDAO_CTL_F6
+NET "LD1"           	        LOC = A20  | IOSTANDARD = "LVCMOS18";   # 	4351
+NET "LD2"           	        LOC = B19  | IOSTANDARD = "LVCMOS18";   #   AD
+NET "LD3"           	        LOC = A21  | IOSTANDARD = "LVCMOS18";   #	20.46M
+#NET "XINDAO_CTL_F7" 			LOC = A19  | IOSTANDARD = "LVCMOS18";   #新增，暂不用
+#NET "TEST_OUTF" 				LOC = C19  | IOSTANDARD = "LVCMOS18";   #新增，暂不用
+#NET "TEST_INF"  				LOC = B21  | IOSTANDARD = "LVCMOS18";   #新增，暂不用
+
+
+#------------------------章动DAChannel Config------------------------# 
+NET "SDA_DIN_z"           		LOC = AD37 | IOSTANDARD = "LVCMOS18";   #  F1DA1
+NET "SDA_CLK_z"           		LOC = Y37  | IOSTANDARD = "LVCMOS18";   #  
+NET "SDA_CSn_z"           		LOC = AB37 | IOSTANDARD = "LVCMOS18";   #  
+
+#------------------------角误差串口 Config------------------------# 
+NET "TXD"                  	    LOC = K13  |IOSTANDARD = "LVCMOS18";    # F1JWC 
+#------------------------激光器串口 Config------------------------#  
+NET "LaserRXD"                  LOC = E12  |IOSTANDARD = "LVCMOS18";    # JG2TJ_F   
+NET "LaserTXD"                  LOC = L12  |IOSTANDARD = "LVCMOS18";    # TJ2JG_F
+##NET "JGINF" 					LOC = D13  |IOSTANDARD = "LVCMOS18";	#新增，暂不用
+##NET "JGOUTF[1]" 				LOC = H13  |IOSTANDARD = "LVCMOS18";
+##NET "JGOUTF[2]" 				LOC = M12  |IOSTANDARD = "LVCMOS18";
+##NET "JGOUTF[3]" 				LOC = K12  |IOSTANDARD = "LVCMOS18";
+##NET "JGOUTF[4]" 				LOC = M11  |IOSTANDARD = "LVCMOS18";
+
+#------------------------综合管理单元串口 Config ------------------------# 
+NET "UartIn"                    LOC = C13 |IOSTANDARD = "LVCMOS18";     #        
+NET "UartOut"                   LOC = G12 |IOSTANDARD = "LVCMOS18";     #        
+
+##------------------------- Bias Ctrl  --------------------------#
+#NET "bias_ad_sdat_i"            LOC = D12 | IOSTANDARD="LVCMOS18";        # AD2TJ_D_F   
+#NET "bias_ad_sclk_o"            LOC = J13 | IOSTANDARD="LVCMOS18";        # TJ2AD_SCLK_F    
+#NET "bias_ad_cs_o"              LOC = J12 | IOSTANDARD="LVCMOS18";        # TJ2AD_CS_F  
+#NET "bias_ad_sdat_o"            LOC = J11 | IOSTANDARD="LVCMOS18";        # TJ2AD_D_F  
+#NET "bias_ad_fs_o"              LOC = L11 | IOSTANDARD="LVCMOS18";        # TJ2AD_FS_F
+##NET "TJ2AD_EOC_F" 				LOC = E13 | IOSTANDARD="LVCMOS18";        # TJ2AD_EOC_F
+#   
+#NET "bias_da_sclk_o"            LOC = M13 | IOSTANDARD="LVCMOS18";        # TJ2DA_SCLK_F  
+#NET "bias_da_sdat_o"            LOC = F12 | IOSTANDARD="LVCMOS18";        # TJ2DA_D_F  
+#NET "bias_da_cs_o"              LOC = N13 | IOSTANDARD="LVCMOS18";        # TJ2DA_CS_F  
+#
+##NET "TEST_OUTF" 				LOC = G14 | IOSTANDARD="LVCMOS18";  	  #新增，暂不用
+
+#------------------------clk period constraints------------------------#
+#NET "ADC_CLK_ADR" TNM_NET = ADC_CLK_ADR;
+#TIMESPEC TS_ADC_CLK_ADR = PERIOD "ADC_CLK_ADR" 1.88 ns HIGH 50%;
+#NET "ADC_CLK_ADRN" TNM_NET = ADC_CLK_ADRN;
+#TIMESPEC TS_ADC_CLK_ADRN = PERIOD "ADC_CLK_ADRN" 1.88 ns HIGH 50%;
+#
+#NET "ADC_CLK_BDR" TNM_NET = ADC_CLK_BDR;
+#TIMESPEC TS_ADC_CLK_BDR = PERIOD "ADC_CLK_BDR" 1.88 ns HIGH 50%;
+#NET "ADC_CLK_BDRN" TNM_NET = ADC_CLK_BDRN;
+#TIMESPEC TS_ADC_CLK_BDRN = PERIOD "ADC_CLK_BDRN" 1.88 ns HIGH 50%;
+#
+#NET "ADC_CLK_CDR" TNM_NET = ADC_CLK_CDR;
+#TIMESPEC TS_ADC_CLK_CDR = PERIOD "ADC_CLK_CDR" 1.88 ns HIGH 50%;
+#NET "ADC_CLK_CDRN" TNM_NET = ADC_CLK_CDRN;
+#TIMESPEC TS_ADC_CLK_CDRN = PERIOD "ADC_CLK_CDRN" 1.88 ns HIGH 50%;
+#
+NET "ADC_CLK_DDR" TNM_NET = ADC_CLK_DDR;
+TIMESPEC TS_ADC_CLK_DDR = PERIOD "ADC_CLK_DDR" 1.88 ns HIGH 50%;
+NET "ADC_CLK_DDRN" TNM_NET = ADC_CLK_DDRN;
+TIMESPEC TS_ADC_CLK_DDRN = PERIOD "ADC_CLK_DDRN" 1.88 ns HIGH 50%;
+
+NET "ADC_SClk_D" TNM_NET = ADC_SClk_D;
+TIMESPEC TS_ADC_SClk_D = PERIOD "ADC_SClk_D" 1.88 ns HIGH 50%;
+#NET "ADC_PClk_D" TNM_NET = ADC_PClk_D;
+#TIMESPEC TS_ADC_PClk_D = PERIOD "ADC_PClk_D" 3.75 ns HIGH 50%;
+
+
+
+#NET "ADC2_CLK_ADR" TNM_NET = ADC2_CLK_ADR;
+#TIMESPEC TS_ADC2_CLK_ADR = PERIOD "ADC2_CLK_ADR" 1.88 ns HIGH 50%;
+#NET "ADC2_CLK_ADRN" TNM_NET = ADC2_CLK_ADRN;
+#TIMESPEC TS_ADC2_CLK_ADRN = PERIOD "ADC2_CLK_ADRN" 1.88 ns HIGH 50%;
+#
+#NET "ADC2_CLK_BDR" TNM_NET = ADC2_CLK_BDR;
+#TIMESPEC TS_ADC2_CLK_BDR = PERIOD "ADC2_CLK_BDR" 1.88 ns HIGH 50%;
+#NET "ADC2_CLK_BDRN" TNM_NET = ADC2_CLK_BDRN;
+#TIMESPEC TS_ADC2_CLK_BDRN = PERIOD "ADC2_CLK_BDRN" 1.88 ns HIGH 50%;
+#
+#NET "ADC2_CLK_CDR" TNM_NET = ADC2_CLK_CDR;
+#TIMESPEC TS_ADC2_CLK_CDR = PERIOD "ADC2_CLK_CDR" 1.88 ns HIGH 50%;
+#NET "ADC2_CLK_CDRN" TNM_NET = ADC2_CLK_CDRN;
+#TIMESPEC TS_ADC2_CLK_CDRN = PERIOD "ADC2_CLK_CDRN" 1.88 ns HIGH 50%;
+#
+NET "ADC2_CLK_DDR" TNM_NET = ADC2_CLK_DDR;
+TIMESPEC TS_ADC2_CLK_DDR = PERIOD "ADC2_CLK_DDR" 1.88 ns HIGH 50%;
+NET "ADC2_CLK_DDRN" TNM_NET = ADC2_CLK_DDRN;
+TIMESPEC TS_ADC2_CLK_DDRN = PERIOD "ADC2_CLK_DDRN" 1.88 ns HIGH 50%;
+
+NET "ADC2_SClk_D" TNM_NET = ADC2_SClk_D;
+TIMESPEC TS_ADC2_SClk_D = PERIOD "ADC2_SClk_D" 1.88 ns HIGH 50%;
+#NET "ADC2_PClk_D" TNM_NET = ADC2_PClk_D;
+#TIMESPEC TS_ADC2_PClk_D = PERIOD "ADC2_PClk_D" 3.75 ns HIGH 50%;
+
+
+#NET "Lclk" TNM_NET = Lclk;
+#TIMESPEC TS_Lclk = PERIOD "Lclk" 100 MHz HIGH 50%;
+
+NET "LVDS125MP" TNM_NET = LVDS125MP;
+TIMESPEC TS_LVDS125MP = PERIOD "LVDS125MP" 156.25 MHz HIGH 50%;
+NET "LVDS125MN" TNM_NET = LVDS125MN;
+TIMESPEC TS_LVDS125MN = PERIOD "LVDS125MN" 156.25 MHz HIGH 50%;
+
+NET "clk_loc" TNM_NET = clk_loc;
+TIMESPEC TS_clk_loc = PERIOD "clk_loc" 50 MHz HIGH 50%;
+
+#NET "clk_100m" TNM_NET = clk_100m;
+#TIMESPEC TS_clk_100m = PERIOD "clk_100m" 100 MHz HIGH 50%;
+
+NET "clk_200m" TNM_NET = clk_200m;
+TIMESPEC TS_clk_200m = PERIOD "clk_200m" 200 MHz HIGH 50%;
+
+#------ AD ---------------------------
+#NET "baseclk" TNM_NET = baseclk;
+#TIMESPEC TS_baseclk = PERIOD "baseclk" 48.88 ns HIGH 50%;
+
+NET "GC_CLKP" TNM_NET = GC_CLKP;
+TIMESPEC TS_GC_CLKP = PERIOD "GC_CLKP" 48.88 ns HIGH 50%;
+NET "GC_CLKN" TNM_NET = GC_CLKN;
+TIMESPEC TS_GC_CLKN = PERIOD "GC_CLKN" 48.88 ns HIGH 50%;
+
+NET "AD_Clk" TNM_NET = AD_Clk;
+TIMESPEC TS_AD_Clk = PERIOD "AD_Clk" 3.75 ns HIGH 50%;
+
+NET "ADC_PClk_div8" TNM_NET = ADC_PClk_div8;
+TIMESPEC TS_ADC_PClk_div8 = PERIOD "ADC_PClk_div8" 30 ns HIGH 50%;
+
+NET "ADC_PClk_div13" TNM_NET = ADC_PClk_div13;
+TIMESPEC TS_ADC_PClk_div13 = PERIOD "ADC_PClk_div13" 48.8 ns HIGH 50%;
+
+
+##------------------------AD timing constraints------------------------#
+## BANK9:  AD_b[5] AD_b[6] AD_b[7] AD_c[2] AD_c[4]            		ADC_CLK_ADR
+## BANK10: AD_a[0] AD_a[1] AD_a[2] AD_b[1] AD_b[3] AD_b[4] AD_c[0] AD_c[1] AD_c[3] AD_c[5] AD_c[6] AD_c[7]     														ADC_CLK_BDR				
+## BANK11: AD_a[3] AD_a[4] AD_a[5] AD_a[6] AD_a[7] AD_b[0] AD_b[2] AD_d[0] AD_d[1] AD_d[2] AD_d[3] AD_d[4] AD_d[5] AD_d[6] AD_d[7]				ADC_CLK_CDR		    
+#
+#
+#NET "ADC_DATA_B_P<5>" TNM = DATA_Bank1;
+#NET "ADC_DATA_B_N<5>" TNM = DATA_Bank1;
+#NET "ADC_DATA_B_P<6>" TNM = DATA_Bank1;
+#NET "ADC_DATA_B_N<6>" TNM = DATA_Bank1;
+#NET "ADC_DATA_B_P<7>" TNM = DATA_Bank1;
+#NET "ADC_DATA_B_N<7>" TNM = DATA_Bank1;
+#NET "ADC_DATA_C_P<2>" TNM = DATA_Bank1;
+#NET "ADC_DATA_C_N<2>" TNM = DATA_Bank1;
+#NET "ADC_DATA_C_P<4>" TNM = DATA_Bank1;
+#NET "ADC_DATA_C_N<4>" TNM = DATA_Bank1;
+#
+#TIMEGRP "DATA_Bank1" OFFSET = IN 430 ps VALID 940 ps BEFORE "ADC_CLK_DDR" RISING;
+#TIMEGRP "DATA_Bank1" OFFSET = IN 430 ps VALID 940 ps BEFORE "ADC_CLK_DDR" FALLING;
+#
+#NET "ADC_DATA_A_P<0>" TNM = DATA_Bank2;
+#NET "ADC_DATA_A_N<0>" TNM = DATA_Bank2;
+#NET "ADC_DATA_A_P<1>" TNM = DATA_Bank2;
+#NET "ADC_DATA_A_N<1>" TNM = DATA_Bank2;
+#NET "ADC_DATA_A_P<2>" TNM = DATA_Bank2;
+#NET "ADC_DATA_A_N<2>" TNM = DATA_Bank2;
+#NET "ADC_DATA_B_P<1>" TNM = DATA_Bank2;
+#NET "ADC_DATA_B_N<1>" TNM = DATA_Bank2;
+#NET "ADC_DATA_B_P<3>" TNM = DATA_Bank2;
+#NET "ADC_DATA_B_N<3>" TNM = DATA_Bank2;
+#NET "ADC_DATA_B_P<4>" TNM = DATA_Bank2;
+#NET "ADC_DATA_B_N<4>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_P<0>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_N<0>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_P<1>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_N<1>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_P<3>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_N<3>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_P<5>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_N<5>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_P<6>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_N<6>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_P<7>" TNM = DATA_Bank2;
+#NET "ADC_DATA_C_N<7>" TNM = DATA_Bank2;
+#
+#TIMEGRP "DATA_Bank2" OFFSET = IN 430 ps VALID 940 ps BEFORE "ADC_CLK_DDR" RISING;
+#TIMEGRP "DATA_Bank2" OFFSET = IN 430 ps VALID 940 ps BEFORE "ADC_CLK_DDR" FALLING;
+#
+#NET "ADC_DATA_A_P<3>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_N<3>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_P<4>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_N<4>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_P<5>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_N<5>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_P<6>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_N<6>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_P<7>" TNM = DATA_Bank3;
+#NET "ADC_DATA_A_N<7>" TNM = DATA_Bank3;
+#NET "ADC_DATA_B_P<0>" TNM = DATA_Bank3;
+#NET "ADC_DATA_B_N<0>" TNM = DATA_Bank3;
+#NET "ADC_DATA_B_P<2>" TNM = DATA_Bank3;
+#NET "ADC_DATA_B_N<2>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_P<0>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_N<0>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_P<1>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_N<1>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_P<2>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_N<2>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_P<3>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_N<3>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_P<4>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_N<4>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_P<5>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_N<5>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_P<6>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_N<6>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_P<7>" TNM = DATA_Bank3;
+#NET "ADC_DATA_D_N<7>" TNM = DATA_Bank3;
+#
+#TIMEGRP "DATA_Bank3" OFFSET = IN 430 ps VALID 940 ps BEFORE "ADC_CLK_DDR" RISING;
+#TIMEGRP "DATA_Bank3" OFFSET = IN 430 ps VALID 940 ps BEFORE "ADC_CLK_DDR" FALLING;
+
+
+#------------------------ GTX ------------------------#
+##---------- Set placement for gt0_gth_wrapper_i/GTHE2_CHANNEL ------
+INST MGT_Top_inst/MGTH_init_i/MGTH_i/gt0_MGTH_i/gthe2_i LOC=GTHE2_CHANNEL_X1Y4;
+
+NET "LVDS250MP" 		LOC = "AW10" | IOSTANDARD = "LVDS";
+NET "LVDS250MN" 		LOC = "AW9"	 | IOSTANDARD = "LVDS";
+#NET "MGT_REFCLKP0"  	LOC = "BA10" | IOSTANDARD = "LVDS";
+#NET "MGT_REFCLKN0"  	LOC = "BA9"	 | IOSTANDARD = "LVDS";
+#NET "MGT_REFCLKP1"  	LOC = "AT8"  | IOSTANDARD = "LVDS";
+#NET "MGT_REFCLKN1"  	LOC = "AT7"	 | IOSTANDARD = "LVDS";	
+NET "MGT0_TXP" 			LOC = "BB4"	 | IOSTANDARD = "LVDS";		#MGT_SFP2B_P[1]
+NET "MGT0_TXN" 			LOC = "BB3"	 | IOSTANDARD = "LVDS";		#MGT_SFP2B_N[1]
+#NET "MGT0_RXP"			LOC = "BB8"	 | IOSTANDARD = "LVDS";		#MGT_B2SFP_P[1]
+#NET "MGT0_RXN"			LOC = "BB7"	 | IOSTANDARD = "LVDS";		#MGT_B2SFP_N[1]	
+#NET "MGT1_TXP" 		LOC = "BA2"	 | IOSTANDARD = "LVDS";		#MGT_SFP2B_P[2]
+#NET "MGT1_TXN" 		LOC = "BA1"	 | IOSTANDARD = "LVDS";		#MGT_SFP2B_N[2]
+#NET "MGT1_RXP" 		LOC = "BA6"	 | IOSTANDARD = "LVDS";		#MGT_B2SFP_P[2]
+#NET "MGT1_RXN" 		LOC = "BA5"	 | IOSTANDARD = "LVDS";		#MGT_B2SFP_N[2]
+
+NET "LVDS250MP" TNM_NET = LVDS250MP;
+TIMESPEC TS_LVDS250MP = PERIOD "LVDS250MP" 125.82912 MHz HIGH 50%;
+NET "LVDS250MN" TNM_NET = LVDS250MN;
+TIMESPEC TS_LVDS250MN = PERIOD "LVDS250MN" 125.82912 MHz HIGH 50%;
+
+
+NET "MGT_Top_inst/gt0_txusrclk2_i" TNM_NET = "gt0_txusrclk2_i";
+TIMESPEC "TS_gt0_txusrclk2_i" = PERIOD "gt0_txusrclk2_i" 196.608 MHz HIGH 50%;
+NET "clk_modu" TNM_NET = clk_modu;
+TIMESPEC TS_clk_modu = PERIOD "clk_modu" 135 MHz HIGH 50%;
+NET "clk_modu2x" TNM_NET = clk_modu2x;
+TIMESPEC TS_clk_modu2x = PERIOD "clk_modu2x" 270 MHz HIGH 50%;
+NET "gth_txclk" TNM_NET = gth_txclk;
+TIMESPEC TS_gth_txclk = PERIOD "gth_txclk" 196.608 MHz HIGH 50%;
+
+#
+#------------------------ 以下暂不用 ------------------------#
+#NET "20M_LVDSP" 		LOC = "H19"  | IOSTANDARD = "LVDS";
+#NET "20M_LVDSN" 		LOC = "G18"  | IOSTANDARD = "LVDS";
+#
+#NET "CLK2_F1" 			LOC = "AW13" | IOSTANDARD="LVCMOS18";
+#
+#NET "FTXDISABLE2" 		LOC = "AF36" | IOSTANDARD="LVCMOS18";
+#NET "FMODDEF22" 		LOC = "AE37" | IOSTANDARD="LVCMOS18";
+#NET "FMODDEF21" 		LOC = "AF37" | IOSTANDARD="LVCMOS18";
+#NET "FLOS1" 			LOC = "AD36" | IOSTANDARD="LVCMOS18";
+#NET "FLOS2" 			LOC = "AC36" | IOSTANDARD="LVCMOS18";
+#NET "FCONTORL2" 		LOC = "AG36" | IOSTANDARD="LVCMOS18";
+#NET "FCONTORL1" 		LOC = "AH36" | IOSTANDARD="LVCMOS18";
+#NET "FTXDISABLE1" 		LOC = "AA37" | IOSTANDARD="LVCMOS18";
+#NET "FMODDEF11" 		LOC = "AA36" | IOSTANDARD="LVCMOS18";
+#NET "FMODDEF12" 		LOC = "AB36" | IOSTANDARD="LVCMOS18";
+                            
+                                                               
+##------------------------2711 Tx&Rx ------------------------#  
+#NET "TLK1_TXD<0>"       LOC = "AU22" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<1>"       LOC = "AU23" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<2>"       LOC = "AV21" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<3>"       LOC = "AW21" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<4>"       LOC = "BA21" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<5>"       LOC = "AV23" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<6>"       LOC = "AY22" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<7>"       LOC = "AW22" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<8>"       LOC = "AW23" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<9>"       LOC = "BB23" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<10>"      LOC = "BB22" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<11>"      LOC = "BA22" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<12>"      LOC = "BB24" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<13>"      LOC = "AY23" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<14>"      LOC = "BA25" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_TXD<15>"      LOC = "BA24" | IOSTANDARD="LVCMOS18";  #Bank12
+#                                                       
+#NET "TLK1_RXD<0>"       LOC = "AV16" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<1>"       LOC = "AU16" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<2>"       LOC = "AW17" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<3>"       LOC = "AV18" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<4>"       LOC = "BA16" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<5>"       LOC = "BB16" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<6>"       LOC = "AW18" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<7>"       LOC = "BB18" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<8>"       LOC = "BA17" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<9>"       LOC = "BB17" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<10>"      LOC = "BB19" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<11>"      LOC = "BA19" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<12>"      LOC = "BA20" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<13>"      LOC = "AY20" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<14>"      LOC = "AW20" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK1_RXD<15>"      LOC = "AY19" | IOSTANDARD="LVCMOS18";  #Bank12
+#                                                        
+#NET "TLK2_TXD<0>"       LOC = "BB31" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<1>"       LOC = "BA30" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<2>"       LOC = "BB32" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<3>"       LOC = "AW30" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<4>"       LOC = "BB33" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<5>"       LOC = "AW31" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<6>"       LOC = "BB34" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<7>"       LOC = "BA34" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<8>"       LOC = "AW32" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<9>"       LOC = "BB36" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<10>"      LOC = "BA36" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<11>"      LOC = "BA35" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<12>"      LOC = "AW33" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<13>"      LOC = "AY35" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<14>"      LOC = "AW36" | IOSTANDARD="LVCMOS18";  #Bank12
+#NET "TLK2_TXD<15>"      LOC = "AW35" | IOSTANDARD="LVCMOS18";  #Bank12 
+#
+#NET "TLK2_RXD<0>"       LOC = "AV25"  | IOSTANDARD="LVCMOS18";  #Bank13##
+#NET "TLK2_RXD<1>"       LOC = "AW25"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<2>"       LOC = "BB26"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<3>"       LOC = "BA26"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<4>"       LOC = "BA27"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<5>"       LOC = "AW26"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<6>"       LOC = "BB27"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<7>"       LOC = "BB28"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<8>"       LOC = "AY27"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<9>"       LOC = "BB29"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<10>"      LOC = "AY29"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<11>"      LOC = "AW27"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<12>"      LOC = "BA29"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<13>"      LOC = "AV29"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<14>"      LOC = "AW28"  | IOSTANDARD="LVCMOS18";  #Bank13
+#NET "TLK2_RXD<15>"      LOC = "AY28"  | IOSTANDARD="LVCMOS18";  #Bank13
+#                               
+#NET "TLK1_TKMSB"             LOC = "AY24"  |IOSTANDARD="LVCMOS18";
+#NET "TLK1_TKLSB"             LOC = "AV24"  |IOSTANDARD="LVCMOS18";
+#NET "TLK1_LOOPEN"            LOC = "AY25"  |IOSTANDARD="LVCMOS18";
+#NET "TLK1_RKMSB"             LOC = "AV19"  |IOSTANDARD="LVCMOS18";
+#NET "TLK1_RKLSB"             LOC = "AU19"  |IOSTANDARD="LVCMOS18";
+##NET "TLK1_PRBSEN"            LOC = "J23"  |IOSTANDARD="LVCMOS25";
+##NET "TLK1_LCKREFN"           LOC = "N24"  |IOSTANDARD="LVCMOS25";
+##NET "TLK1_ENABLE"            LOC = "L23"  |IOSTANDARD="LVCMOS25";
+#
+#NET "TLK2_TKMSB"             LOC = "AV33"  |IOSTANDARD="LVCMOS18";
+#NET "TLK2_TKLSB"             LOC = "AV31"  |IOSTANDARD="LVCMOS18";
+#NET "TLK2_LOOPEN"            LOC = "AU33"  |IOSTANDARD="LVCMOS18";
+#NET "TLK2_RKMSB"             LOC = "AU29"  |IOSTANDARD="LVCMOS18";
+#NET "TLK2_RKLSB"             LOC = "AV26"  |IOSTANDARD="LVCMOS18";
+##NET "TLK2_PRBSEN"            LOC = "L20"  |IOSTANDARD="LVCMOS25";
+##NET "TLK2_LCKREFN"           LOC = "P19"  |IOSTANDARD="LVCMOS25";
+##NET "TLK2_ENABLE"            LOC = "M19"  |IOSTANDARD="LVCMOS25";
+#
+#NET "TLK1_RXCLK"             LOC = "AY18"  |IOSTANDARD="LVCMOS18";
+#NET "TLK1_TXCLK"             LOC = "BB21"  |IOSTANDARD="LVCMOS18"; 
+#NET "TLK2_RXCLK"             LOC = "AR27"  |IOSTANDARD="LVCMOS18";##//
+#NET "TLK2_TXCLK"             LOC = "AY30"  |IOSTANDARD="LVCMOS18";   
+#
+#NET "TLK1_RXCLK" TNM_NET = TLK1_RXCLK;
+#TIMESPEC TS_TLK1_RXCLK = PERIOD "TLK1_RXCLK" 100 MHz HIGH 50%;
+#
+#NET "TLK2_RXCLK" TNM_NET = TLK2_RXCLK;
+#TIMESPEC TS_TLK2_RXCLK = PERIOD "TLK2_RXCLK" 100 MHz HIGH 50%;
+#
+#NET "RX1CLK" TNM_NET = RX1CLK;
+#TIMESPEC TS_RX1CLK = PERIOD "RX1CLK" 100 MHz HIGH 50%;
+#
+#NET "RX2CLK" TNM_NET = RX2CLK;
+#TIMESPEC TS_RX2CLK = PERIOD "RX2CLK" 100 MHz HIGH 50%;
+#

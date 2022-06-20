@@ -1,16 +1,30 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# -*- coding: utf-8 -*-
+"""
+Author：宋健
+将ISE约束文件转为XDC文件的脚本
+"""
+
+# import module
+import ucf2xdc
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# coding body
+def main():
+    path = 'Modem.ucf'
+    xdc_file = open('Modem.xdc', 'w')
+
+    with open(path) as ucf_file:
+        while True:
+            line = ucf_file.readline()
+            if not line:
+                break
+            key = ucf2xdc.file_process(line)
+            for i in range(0, 6):
+                if key[i]:
+                    ucf2xdc.trans_map.get(i)(xdc_file, key[i])
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main()
+# end
