@@ -617,8 +617,6 @@ create_clock -period 48.8-name ADC_PClk_div13 -waveform {0.000 24.4} [get_nets A
 #------------------------ GTX ------------------------#
 ##---------- Set placement for gt0_gth_wrapper_i/GTHE2_CHANNEL ------
 
-set_property LOC GTHE2_CHANNEL_X1Y4 [get_cells MGT_Top_inst/XW_GT_support_i/XW_GT_init_i/inst/XW_GT_i/gt0_XW_GT_i/gthe2_i]
-
 set_property PACKAGE_PIN AW10 [get_ports {LVDS250MP}]
 set_property IOSTANDARD LVDS [get_ports {LVDS250MP}]
 set_property PACKAGE_PIN AW9 [get_ports {LVDS250MN}]
